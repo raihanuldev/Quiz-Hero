@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Developers Quiz Home</title>
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/edmBVFMS9fhuZycs2I6jCO7vGxhH434upOADR2e3x5Wi_s6Et4vcFY0gYs0q_B0qFS8" type="image/x-icon">
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+</head>
+<body>
+    <header class="mx-10 ">
+        <div class="navbar bg-blue-300">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a id="Portfolio" href="https://uniquecoderrihan.github.io/developer-portfollio/">Portfolio</a></li>
+                  <li><a id="about">About</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-center">
+              <a class="btn btn-ghost normal-case text-xl">Blog Area</a>
+              <a class="btn btn-ghost normal-case text-xl" href="https://www.programming-hero.com/">Programming Hero </a>
+              <a class="btn btn-ghost normal-case text-xl" id="Portfolio" href="https://uniquecoderrihan.github.io/developer-portfollio/">Portfolio</a>
+              <a class="btn btn-ghost normal-case text-xl" id="Portfolio" href="https://uniquecoderrihan.github.io/developer-portfollio/">About Me</a>
+            </div>
+            <div class="navbar-end">
+              <button class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              </button>
+              <button class="btn btn-ghost btn-circle">
+                <div class="indicator">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+                  <span class="badge badge-xs badge-primary indicator-item"></span>
+                </div>
+              </button>
+            </div>
+            <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                  <div class="w-10 rounded-full">
+                    <img src="https://play-lh.googleusercontent.com/edmBVFMS9fhuZycs2I6jCO7vGxhH434upOADR2e3x5Wi_s6Et4vcFY0gYs0q_B0qFS8" />
+                  </div>
+                </label>
+                <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                  <li>
+                    <a href="https://web.facebook.com/UniqueCoderRihan" class="justify-between">
+                      Profile
+                      <span class="badge">New</span>
+                    </a>
+                  </li>
+                  <li><a href="https://web.facebook.com/settings/?tab=profile">Settings</a></li>
+                  <li><a>Logout</a></li>
+                </ul>
+              </div>
+          
+          </div>
+    </header>
+    <!-- main section -->
+    <main class="mx-10 mt-10">
+        <section>
+            <h3 class="text-4xl text-center font-semibold my-5">Important Question And Answer</h3>
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                   1:What is Different map, filter,find and Foreach?
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-2xl">
+                    1. map: This method creates a new array by calling a provided function on every element in the input array. The function should return the new value for each element, and the resulting array will have the same number of elements as the input array. <br>
+                    2. filter: This method creates a new array by filtering out elements from the input array that don't meet a certain condition. The condition is specified by a function that takes an element as an argument and returns a Boolean value indicating whether to keep or discard that element. <br>
+                    3. find: This method returns the first element in the input array that satisfies a given condition. The condition is specified by a function that takes an element as an argument and returns a Boolean value indicating whether that element matches the condition. <br>
+                    4. forEach: This method executes a provided function once for each element in the input array. The function takes an element as an argument and can perform any desired operation on that element.
+                  </p>
+                </div>
+              </div>
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                   2: What is The Different Of Local Storge , Sesson storge and Cokkis?
+                </div>
+                <div class="collapse-content">
+                  <p class="text-2xl">
+                    1: LocalStorage: This is a key-value pair storage that persists even after the browser window is closed. It has no expiration date and can be accessed by any page within the same origin. The data stored in LocalStorage remains on the user's computer until it is explicitly cleared. <br>
+                    2: SessionStorage: This is similar to LocalStorage, but the data is lost when the browser window is closed. It is also a key-value pair storage and can be accessed by any page within the same origin. The data stored in SessionStorage remains available as long as the user's session is active. <br>
+                    3: Cookies: This is a small piece of data that is sent from a website to the user's browser and stored on the user's computer. Cookies can have an expiration date and can be accessed by any page within the same domain. Cookies are often used for storing user preferences or login information.
+                </p>
+                </div>
+                <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                    <div class="collapse-title text-xl font-medium">
+                       3: How to work Even Loop?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p class="text-2xl">
+                        The event loop is a mechanism in JavaScript that allows for non-blocking I/O operations. It enables JavaScript to handle multiple tasks simultaneously without blocking the main thread. The event loop is essential for building responsive and efficient web applications.
+                      </p>
+                    </div>
+              </div>
+                <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                    <div class="collapse-title text-xl font-medium">
+                       4: QuizTimer Function what work?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p class="text-2xl">
+                        This function will Be Excutive JavaScript Timer. that's means one time will recieve as a input than will excutive in condition 
+                      </p>
+                    </div>
+              </div>
+              <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                            5.Chose Quiz Function Work What?        
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-2xl">
+                    That's function work is Chose option add in quiz items.
+                  </p>
+                </div>
+          </div>
+        </section>
+    </main>
+
+</body>
+</html>
